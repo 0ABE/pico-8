@@ -1,0 +1,321 @@
+Lights Out 2000 Classic game
+
+1
+
+X X . X X    . O . O .
+. . . . .    . . . . .
+X X . X X    . O . O .
+. . . . .    . . . . .
+X X . X X    . O . O .
+
+X X X X X    . O . O .
+. . X . .    . . O . .
+. . . . .    . . . . .
+. . X . .    . . O . .
+X X X X X    . O . O .
+
+X X X X X    . O . . O
+. X . X .    . . . . .
+. . X . .    . . . O O
+. X . X .    . . . . .
+X X X X X    . O . . O
+
+. X . X .    . O . O .
+X . . . X    O . . . O
+. . . . .    . . . . .
+X X . X X    O . . . O
+X . . . X    . . . . .
+
+. . X . .    . O . . .
+. X X . .    O O . . .
+X X . X X    . . . . .
+. . X X .    . . . O O
+. . X . .    . . . O .
+
+6
+
+. X . X .    . . O . .
+X X X X X    . . O . .
+X . X . X    O . O . O
+X X X X X    . . O . .
+. X . X .    . . O . .
+
+X . X . X    . . . . .
+X . . . X    O . O . O
+X X . X X    . . O . .
+X . . . X    . . . . .
+X . X . X    O . O . O
+
+. . . . .    O . O O O
+. . . . .    O . . O .
+. X X X .    . O . . .
+. X . . .    . . . . .
+. . . . .    . . . . .
+
+. . . . X    . . O O .
+. . . X .    . O . . .
+. . X . .    O O . . .
+. X X . .    . O . . .
+X . X . .    . O . . .
+
+. . . . .    . . . . .
+X . X . X    . . . . .
+X . . . X    O . O . O
+X . X . X    . . O . .
+X . . . X    . O O O .
+
+11
+
+X X X X X    . . O . .
+. X X X .    O . . . O
+. X X X .    O . . . O
+. X X X .    . . O . .
+X X X X X    O . . . O
+
+X . . . X    O . . . O
+. X . X .    . O . O .
+. . . . .    . . . . .
+. X . X .    . O . O .
+X . . . X    O . . . O
+
+. X X X .    . . O O .
+. X . X .    . . O O O
+. X X X .    . . O O .
+. . . X .    . . . . .
+. X X X .    . . O . .
+
+X X X X .    . O . O O
+X . . X .    . . O O .
+X X X X .    O . . . .
+X X X . .    . . . . .
+X . . X .    . O O . .
+
+X . X . X    O . . . O
+X . X . X    . O O O .
+X . X . X    O . . . O
+X . X . X    . . . . .
+. X X X .    . . O . .
+
+16
+
+. X X X .    . . . O .
+. X . . .    . O . . O
+. X X X .    O . O . O
+. . . X .    O . . O .
+. X X X .    . O . . .
+
+X X X X X    . O . O .
+X . . . X    . . O . .
+X . X . X    O . O . O
+X . . . X    . . O . .
+X X X X X    . O . O .
+
+X . X . X    . . . . .
+. . . . .    O . O . O
+X . X . X    O . O . O
+. . . . .    O . O . O
+X . X . X    . . . . .
+
+. X . X .    . O . O .
+X . X . X    O . . . O
+. X X X .    . . O . .
+X . X . X    O . . . O
+. X . X .    . O . O .
+
+X . X . X    O . O . O
+. . . . .    . . . . .
+. . . . .    O . O . O
+. . . . .    O . O . O
+X . X . X    . . . . .
+
+21
+
+X X X X X    . O . . .
+X . X X X    . . . O O
+X X . X X    O O . O O
+X X X . X    O O . . .
+X X X X X    . . . O .
+
+X X X X X    . O . . O
+. . X . .    . . . . .
+X X X X X    . O O . O
+X . . . X    . O O O .
+X . . . X    . O . . O
+
+X X . X X    . . . . .
+. X . X .    O O . O O
+X X . X X    . O . O .
+. X . X .    O O . O O
+X X . X X    . . . . .
+
+. . X . .    . O . . O
+. X . X .    O O . O O
+X X X X X    . . . O O
+X . . . X    . . . . .
+X X X X X    O . . O .
+
+X . . . X    . O . O .
+X X . X X    . O . O .
+X . X . X    . O . O .
+X . . . X    . . O . .
+X . . . X    O . O . O
+
+26
+
+X X X X X    . O . . O
+X . X . X    . . . . .
+X X X X X    O O O . .
+X . X . X    O . O . O
+X X X X X    O O O . .
+
+. X X X .    . O . . O
+. . X . .    O . . . O
+. . X . .    O . O O .
+. . X . .    . . O . .
+. X X X .    O O O . .
+
+. X X X .    . O . . O
+. X . X .    O . . . O
+X X X X X    O O . . .
+. X X X .    . O . O .
+X X . X X    . O O . O
+
+. . . . .    . . . O O
+. . . . .    . . O . .
+. . X . .    . O O . O
+. . . . .    O . . . O
+. . . . .    O . O O .
+
+X . . . X    . . . O O
+. . . . .    O . O . O
+. . X . .    O . O O .
+. . . . .    . . . . .
+X . . . X    O . O O .
+
+31
+
+X X . X X    . . . . .
+X X . X X    O O . O O
+. . . . .    O O . O O
+X X . X X    O O . O O
+X X . X X    . . . . .
+
+. X . X .    . . O O O
+. . . . .    . . . . .
+X . . . X    . . O O O
+. X X X .    O O . O O
+. . X . .    . O . . O
+
+X . X . X    . O . O .
+. X X X .    . O O O .
+X X . X X    O . . . O
+. X X X .    . O O O .
+X . X . X    . O . O .
+
+X . . . X    . O O . .
+X X . . X    . . . O O
+X . X . X    O . . . O
+X . . X X    . O O . O
+X . . . X    O . . O O
+
+X . X . X    . O . O .
+X . X . X    . O O O .
+X X . X X    . O . O .
+X . X . X    . O O O .
+X . X . X    . O . O .
+
+36
+
+. . X . .    . O . . O
+. . X . .    O O . O O
+. X X X .    . O O . O
+X . X . X    . . O . .
+X . X . X    O . O O .
+
+X . X . X    . O . . O
+X . X . X    . O . O .
+X . X . X    . . O O O
+X . X . X    O . O . O
+X X X X X    . . O O O
+
+. . . . .    . O . O .
+. X X X .    O O . O O
+. X X X .    . . O . .
+. X X X .    O O . O O
+. . . . .    . O . O .
+
+. . X . .    . O . . O
+. X . X .    O O . O O
+X . . . X    . . . O O
+X X X X X    . O O O .
+X . . . X    . O . . O
+
+X . X . X    O . . . O
+. X . X .    . O O O .
+X . X . X    . O O O .
+. X . X .    . O O O .
+X . X . X    O . . . O
+
+41
+
+X . . . X    . O . . O
+. X X X .    . O O O .
+. X . X .    O . . O .
+. X X X .    O O . O O
+X . . . X    O O O . .
+
+. . X . .    . O . . O
+. X . X .    O O . O O
+X . . . X    . . . O O
+. X . X .    . O O O .
+. . X . .    O O O . .
+
+X . X . X    . O . . O
+. . . . .    . O . O .
+. X . X .    O . . O .
+. . . . .    O O O O O
+X . X . X    O O O . .
+
+. X . X .    . . . O O
+X X X X X    . O O O .
+. X . X .    . O . . O
+X X X X X    O O . O O
+. X . X .    O . O O .
+
+X X X X X    O . . . .
+X . X . X    . . O O O
+X X X X X    . O O O O
+X . X X X    . O O O .
+X X X X X    . O O . O
+
+46
+
+X . . . X    . O . . O
+. X . X .    . O O O .
+. . X . .    O . O O .
+. X . X .    O O . O O
+X . . . X    O O O . .
+
+X X X X X    . . . O O
+. . X . .    O O . O O
+X X X X X    . . O O O
+. . X . .    . O O O .
+X X X X X    O . O O .
+
+X X X X X    . . . O O
+. X X X .    O O . O O
+. . X . .    . O O . O
+. X X X .    . O O O .
+X X X X X    O . O O .
+
+. . X . .    . O . . O
+X . X . X    O O . O O
+X X X X X    O O O . .
+X . X . X    . O O O .
+. . X . .    O O O . .
+
+X X X X X    . . . O O
+X X X X X    O O . O O
+X X X X X    O O O . .
+X X X X X    . O O O .
+X X X X X    O . O O .
