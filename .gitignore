@@ -1,3 +1,22 @@
+# Directories
+backup/
+bbs/
+cdata/
+cstore/
+plates/
+
+# pico-8 files
+activity_log.txt
+config.txt
+log.txt
+sdl_controllers.txt
+
+# manual backups
+carts/*.zip
+
+# System files
+.DS_Store
+
 # Compiled Lua sources
 luac.out
 
