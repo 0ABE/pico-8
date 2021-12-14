@@ -3,6 +3,7 @@ version 33
 __lua__
 -- lights out
 -- by abe of hexadecimal
+#include state.lua
 #include tile_selector.lua
 #include tiles.lua
 #include levels.lua

@@ -7,30 +7,13 @@ _cur_level=nil
 _level_score={}
 
 function _init()
-    --setup the tile selector
-    _sel:init()
-    --setup up the board
-    _tiles:init(4) --start with puzzle number
-    --override the tile selected by the level
-    --_sel:select(1)
-    
+    _state:init(_states.play)
 end
 
 function _update()
-    local next_sel=nil
-    --player wants to move to a different tile
-    if (btnp(0)) then next_sel=west(_sel.idx) end
-    if (btnp(1)) then next_sel=east(_sel.idx) end
-    if (btnp(2)) then next_sel=north(_sel.idx) end
-    if (btnp(3)) then next_sel=south(_sel.idx) end
-    --player moved to a new tile so select it
-    if (next_sel) then _sel:select(next_sel) end
-    --player wants to toggle the current tile on/off
-    if (btnp(4) or btnp(5)) then _tiles:toggle(_sel.idx) end
+    _state:update()
 end
-    
+
 function _draw()
-    rectfill(0,0,127,127,0)
-    _tiles:draw()
-    _sel:draw()
+    _state:draw()
 end

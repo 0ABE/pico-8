@@ -42,7 +42,7 @@ function _tiles:init(level_num)
                 --our board index
                 if (level.tiles[tidx] == idx) then 
                     tile.vis=true
-                    -- tidx was used so go to the next
+                    -- tidx was used/read so go to the next
                     tidx=tidx+1
                 end
             --otherwise use the board field
@@ -81,19 +81,16 @@ function _tiles:toggle(idx)
     local near={n,e,s,w}
     --toggle this tile (located at idx)
     self[idx].vis=not self[idx].vis
-    --update the graphics
+    --update the graphics for this tile
     if (self[idx].vis) then self[idx].gfx.spr=1
     else self[idx].gfx.spr=0 end
     --toggle neighbors (n,e,s,w)
-    for i=1,#near do
-        --check if there's a valid neighbor in this direction
-        if (near[i]) then
-            --toggle the neighbor
-            self[near[i]].vis=not self[near[i]].vis
-            --update the neighbor graphics
-            if (self[near[i]].vis) then self[near[i]].gfx.spr=1
-            else self[near[i]].gfx.spr=0 end
-        end
+    for num in all(near) do
+        --toggle the neighbor
+        self[num].vis=not self[num].vis
+        --update the neighbor graphics
+        if (self[num].vis) then self[num].gfx.spr=1
+        else self[num].gfx.spr=0 end
     end
 end
 
