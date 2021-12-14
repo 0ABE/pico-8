@@ -4,11 +4,14 @@ _tiles={}
 _cols=5
 _rows=5
 --default x and y offsets
-_x_off=0
-_y_off=0
+_x_off=24
+_y_off=24
 --tile sizes
 _wd=8 --width
 _ht=8 --height
+--scaled tile sizes
+_swd=16 --scaled width
+_sht=16 --scaled height
 
 function _tiles:init(level_num)
     --set the current level
@@ -50,11 +53,11 @@ function _tiles:init(level_num)
             --init a graphics array
             tile.gfx={}
             --top left corner (x,y)
-            tile.gfx.x=j*_wd-_wd+_x_off
-            tile.gfx.y=i*_wd-_wd+_y_off
+            tile.gfx.x=j*_swd-_swd+_x_off
+            tile.gfx.y=i*_swd-_swd+_y_off
             --bottom right corner (x2,y2)
-            tile.gfx.x2=tile.gfx.x+_wd
-            tile.gfx.y2=tile.gfx.y+_wd
+            tile.gfx.x2=tile.gfx.x+_swd
+            tile.gfx.y2=tile.gfx.y+_swd
             --pick the sprite based on visibility
             if (tile.vis) then tile.gfx.spr=1
             else tile.gfx.spr=0 end
@@ -150,7 +153,13 @@ end
 
 function _tiles:draw()
     for i=1,#self do
-        spr(self[i].gfx.spr,self[i].gfx.x,self[i].gfx.y)
+        --draw sprites as they are (no scaling)
+        --spr(self[i].gfx.spr,self[i].gfx.x,self[i].gfx.y)
+
+        --draw the sprites using scaling
+        local sp = self[i].gfx.spr
+        local sx,sy = (sp % 16) * 8, (sp \ 16) * 8
+        sspr(sx,sy,_wd,_ht,self[i].gfx.x,self[i].gfx.y,_swd,_sht)
         --rect(_tiles[i].gfx.x,_tiles[i].gfx.y,_tiles[i].gfx.x2,_tiles[i].gfx.y2,4)
     end
 end

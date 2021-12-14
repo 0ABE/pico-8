@@ -3,14 +3,14 @@
 _sln_steps=nil
 --which puzzle 
 _cur_level=nil
---keep track of the player's steps per level
-_cur_score=0
+--keep track of the player's score per level
+_level_score={}
 
 function _init()
     --setup the tile selector
     _sel:init()
     --setup up the board
-    _tiles:init(2) --start with puzzle number
+    _tiles:init(4) --start with puzzle number
     --override the tile selected by the level
     --_sel:select(1)
     

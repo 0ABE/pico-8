@@ -13,5 +13,10 @@ end
 
 function _sel:draw()
     --draw the selected sprite using the x,y values of the tile
-    spr(self.spr,_tiles[self.idx].gfx.x,_tiles[self.idx].gfx.y)
+    --spr(self.spr,_tiles[self.idx].gfx.x,_tiles[self.idx].gfx.y)
+
+    --draw the selected sprite using scaling
+    local sp = self.spr
+    local sx,sy = (sp % 16) * 8, (sp \ 16) * 8
+     sspr(sx,sy,_wd,_ht,_tiles[self.idx].gfx.x,_tiles[self.idx].gfx.y,_swd,_sht)
 end
